@@ -25,5 +25,25 @@ font-family: "BBH Sans Bartle", sans-serif;
     padding-left: 15px;
     color: rgba(0, 0, 0, 0.658);
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    nav ul li{
+        margin-left 20px;
+        font-size: 20px;
+    }
+    header nav ul li a{
+        color:blueviolet
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    header nav ul li a:hover{
+        color: bluergb{255, 3, 238};
+    }
+    }
 }
